@@ -10,7 +10,7 @@ $(document).ready(function () {
 
        $.ajax({
         type: "Get",
-        url: `http://api.openweathermap.org/geo/1.0/direct?q=${cityname}&limit=1&appid=85ca85955f079dc2a70fc7fefcabdf89`,
+        url: `http://api.openweathermap.org/geo/1.0/direct?q=${cityname}&limit=1&appid=`,
         success: function (response) {
 
             console.log(response);
