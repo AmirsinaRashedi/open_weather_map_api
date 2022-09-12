@@ -1,0 +1,56 @@
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+}
+
+#cityinput{
+    text-align: center;
+    color: white;
+    background-color: hsl(340deg 100% 32%);
+    border-color: hsl(340deg 100% 32%);
+}
+
+td,th{
+    padding: 5%;
+    direction: ltr;
+    border: 1px solid black;
+    background-color: burlywood;
+    text-align: center;
+}
+
+body{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.pushable {
+    background: hsl(340deg 100% 32%);
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+  }
+  .front {
+    display: block;
+    padding: 3px 14px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background: hsl(345deg 100% 47%);
+    color: white;
+    transform: translateY(-6px);
+  }
+
+  .pushable:active .front {
+    transform: translateY(-2px);
+  }
+
+  .citynamedisplay{
+    margin-top: 0px;
+  }
+
+  .orange-text{
+    color:#eb6e4b
+  }
